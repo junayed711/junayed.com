@@ -25,6 +25,11 @@ export const PROJECTS: Metadata = {
   DESCRIPTION: "Things I'm building — side projects, experiments, and tools.",
 };
 
+export const CONNECT: Metadata = {
+  TITLE: "Let's Connect",
+  DESCRIPTION: "Get in touch — socials and email.",
+};
+
 export const SOCIALS: Socials = [
   {
     NAME: "X (formerly Twitter)",
