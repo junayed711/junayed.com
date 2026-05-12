@@ -1,7 +1,7 @@
 ---
 import Container from "@components/Container.astro";
-import { SITE } from "@consts";
 import BackToTop from "@components/BackToTop.astro";
+import CoffeeIcon from "@assets/coffee.svg";
 ---
 
 <footer class="animate">
@@ -12,7 +12,10 @@ import BackToTop from "@components/BackToTop.astro";
       </div>
     </div>
     <div class="flex items-center justify-between">
-      <div>&copy; {new Date().getFullYear()} • {SITE.TITLE} 🔬</div>
+      <div class="flex items-center gap-1.5">
+        &copy; {new Date().getFullYear()} | All Rights Reserved
+        <CoffeeIcon width={16} height={16} />
+      </div>
       <div class="flex flex-wrap items-center gap-1.5">
         <button
           id="light-theme-button"
