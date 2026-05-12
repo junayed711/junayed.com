@@ -2,14 +2,16 @@
 import Container from "@components/Container.astro";
 import Link from "@components/Link.astro";
 import { SITE } from "@consts";
+import CoffeeIcon from "@assets/coffee.svg";
 ---
 
 <header transition:persist>
   <Container>
     <div class="flex flex-wrap justify-between gap-y-2">
       <Link href="/" underline={false}>
-        <div class="font-semibold">
-          {SITE.TITLE}&nbsp;🔬
+        <div class="flex items-center gap-1.5 font-semibold">
+          {SITE.TITLE}
+          <CoffeeIcon width={16} height={16} />
         </div>
       </Link>
       <nav class="flex items-center gap-1 text-sm">
