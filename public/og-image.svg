@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+
+  <!-- Coffee icon (24x24 viewBox scaled 5x = 120x120, centered: x=540) -->
+  <g transform="translate(540, 130) scale(5)" fill="none" stroke="#fafafa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 8h1a4 4 0 1 1 0 8h-1"/>
+    <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/>
+    <line x1="6" x2="6" y1="2" y2="4"/>
+    <line x1="10" x2="10" y1="2" y2="4"/>
+    <line x1="14" x2="14" y1="2" y2="4"/>
+  </g>
+
+  <text x="600" y="370" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="84" font-weight="600" fill="#fafafa">Junayed</text>
+
+  <text x="600" y="430" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="32" fill="#a3a3a3">Sleep-deprived twin dad with a day job</text>
+
+  <text x="600" y="590" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" fill="#525252">junayed.com</text>
+</svg>
