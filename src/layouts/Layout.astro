@@ -33,5 +33,18 @@ const { title, description } = Astro.props;
     </main>
     <Footer />
     <Pagefind />
+    <script>
+      import mediumZoom from "medium-zoom";
+
+      function initZoom() {
+        mediumZoom("article img", {
+          background: "rgba(0, 0, 0, 0.85)",
+          margin: 24,
+        });
+      }
+
+      initZoom();
+      document.addEventListener("astro:after-swap", initZoom);
+    </script>
   </body>
 </html>
