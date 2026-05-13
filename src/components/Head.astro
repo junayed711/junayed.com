@@ -72,6 +72,13 @@ const { title, description, image = "/og-image.png" } = Astro.props;
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
 <script is:inline src="/pagefind/pagefind-ui.js"></script>
 
+<!-- Cloudflare Web Analytics -->
+<script
+  is:inline
+  defer
+  src="https://static.cloudflareinsights.com/beacon.min.js"
+  data-cf-beacon='{"token": "b5606f1ba564416cbe43245e9e1f6f75"}'></script>
+
 <ClientRouter />
 
 <script is:inline>
