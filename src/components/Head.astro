@@ -37,6 +37,15 @@ const {
   image = "/og-image.png",
   noindex = false,
 } = Astro.props;
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  url: Astro.site?.toString(),
+  name: SITE.TITLE,
+  description: SITE.DESCRIPTION,
+  inLanguage: "en",
+};
 ---
 
 <!-- Global Metadata -->
@@ -75,6 +84,13 @@ const {
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+<!-- Structured data -->
+<script
+  type="application/ld+json"
+  is:inline
+  set:html={JSON.stringify(websiteJsonLd)}
+/>
 
 <!-- PageFind -->
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
