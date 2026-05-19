@@ -1,5 +1,8 @@
 import type { Metadata, Site, Socials } from "@types";
 
+// Must match `site` in astro.config.mjs.
+export const SITE_URL = "https://junayed.com";
+
 export const SITE: Site = {
   TITLE: "Junayed",
   DESCRIPTION:

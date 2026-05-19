@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
-import { SITE } from "@consts";
+import { SITE, SITE_URL } from "@consts";
 
 import "@fontsource/geist-sans/100.css";
 import "@fontsource/geist-sans/200.css";
@@ -41,7 +41,7 @@ const {
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  url: Astro.site?.toString(),
+  url: SITE_URL,
   name: SITE.TITLE,
   description: SITE.DESCRIPTION,
   inLanguage: "en",

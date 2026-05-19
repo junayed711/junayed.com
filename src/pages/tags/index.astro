@@ -10,7 +10,7 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags || []))].sort();
 <Layout title="Tags" description="List of tags used." noindex>
   <Container>
     <div class="space-y-10">
-      <h1 class="animate text-2xl font-semibold sm:text-3xl">All Tags</h1>
+      <h1 class="animate">All Tags</h1>
       <div class="animate flex flex-wrap gap-2">
         {
           tags.map((tag) => (
