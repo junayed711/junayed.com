@@ -52,6 +52,11 @@ const post = Astro.props;
 const { Content, headings } = await render(post);
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const personSchema = {
+  "@type": "Person",
+  name: SITE.TITLE,
+  url: Astro.site?.toString(),
+};
 const blogPostingJsonLd = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -60,16 +65,8 @@ const blogPostingJsonLd = {
   description: post.data.description,
   datePublished: post.data.date.toISOString(),
   image: new URL("/og-image.png", Astro.site).toString(),
-  author: {
-    "@type": "Person",
-    name: SITE.TITLE,
-    url: Astro.site?.toString(),
-  },
-  publisher: {
-    "@type": "Person",
-    name: SITE.TITLE,
-    url: Astro.site?.toString(),
-  },
+  author: personSchema,
+  publisher: personSchema,
   ...(post.data.tags && post.data.tags.length > 0
     ? { keywords: post.data.tags.join(", ") }
     : {}),
