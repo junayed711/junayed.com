@@ -7,7 +7,18 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   site: "https://junayed.com",
-  integrations: [sitemap(), mdx(), pagefind()],
+  trailingSlash: "always",
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: "viewport",
+  },
+  integrations: [
+    sitemap({
+      filter: (page) => !page.startsWith("https://junayed.com/tags"),
+    }),
+    mdx(),
+    pagefind(),
+  ],
   vite: {
     plugins: [tailwindcss()],
   },

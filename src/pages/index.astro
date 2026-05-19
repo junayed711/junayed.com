@@ -1,7 +1,7 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import { SITE, HOME } from "@consts";
+import { SITE, SITE_URL, HOME, SOCIALS } from "@consts";
 import ArrowCard from "@components/ArrowCard.astro";
 import ConnectContent from "@components/ConnectContent.astro";
 import Link from "@components/Link.astro";
@@ -19,103 +19,105 @@ const projects: CollectionEntry<"projects">[] = (
   .filter((project) => !project.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, SITE.NUM_PROJECTS_ON_HOMEPAGE);
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: SITE.TITLE,
+  url: SITE_URL,
+  email: SITE.EMAIL,
+  description: SITE.DESCRIPTION,
+  sameAs: SOCIALS.map((social) => social.HREF),
+};
 ---
 
 <Layout title={HOME.TITLE} description={HOME.DESCRIPTION}>
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify(personJsonLd)}
+  />
   <Container>
-    <aside data-pagefind-ignore>
-      <h1 class="font-semibold text-black dark:text-white">
-        Hey, I'm Junayed
-      </h1>
-      <div class="space-y-16">
-        <section>
-          <article class="space-y-4">
-            <span>
-              <p>Sleep-deprived twin dad with a day job.</p>
-              <p>I'm a product builder.</p>
-              <p>I love to build great products, teams and processes.</p>
-              <p>
-                I'm currently building <Link href="https://layzer.ai"
-                  >Layzer</Link
-                >.
-              </p>
-            </span>
-          </article>
-        </section>
-
-        <section class="animate space-y-6">
-          <h2 class="font-semibold text-black dark:text-white">About me</h2>
-          <article class="space-y-4">
+    <h1>Hey, I'm Junayed</h1>
+    <div class="space-y-16">
+      <section>
+        <article class="space-y-4">
+          <span>
+            <p>Sleep-deprived twin dad with a day job.</p>
+            <p>I'm a product builder.</p>
+            <p>I love to build great products, teams and processes.</p>
             <p>
-              Building things and breaking them apart has been a lifelong
-              interest — I've been writing software for over a decade and still
-              get a kick out of it <em
-                >(which, to be fair, confuses most of my family)</em
+              I'm currently building <Link href="https://layzer.ai">Layzer</Link
               >.
             </p>
-            <p>
-              By day I'm contracting as a Tech Lead. The rest of the time I'm
-              building <Link href="https://layzer.ai">Layzer</Link> — an AI chat
-              platform in the spirit of <Link href="https://poe.com">Poe</Link>, <Link
-                href="https://librechat.ai">LibreChat</Link
-              >, and <Link href="https://openwebui.com">Open WebUI</Link>. The
-              idea is simple: pick any AI model and give it superpowers — custom
-              assistants, tools, and a clean place to actually use them. Free to
-              try.
-            </p>
-            <p>
-              Outside of code, life is full — twin toddlers will do that to a
-              calendar.
-            </p>
-          </article>
-        </section>
+          </span>
+        </article>
+      </section>
 
-        <section class="animate space-y-6">
-          <div class="flex flex-wrap items-center justify-between gap-y-2">
-            <h2 class="font-semibold text-black dark:text-white">
-              Latest posts
-            </h2>
-            <Link href="/blog"> See all posts </Link>
-          </div>
-          <ul class="not-prose flex flex-col gap-4">
-            {
-              blog.map((post) => (
-                <li>
-                  <ArrowCard entry={post} />
-                </li>
-              ))
-            }
-          </ul>
-        </section>
+      <section class="animate space-y-6">
+        <h2>About me</h2>
+        <article class="space-y-4">
+          <p>
+            Building things and breaking them apart has been a lifelong interest
+            — I've been writing software for over a decade and still get a kick
+            out of it <em>(which, to be fair, confuses most of my family)</em>.
+          </p>
+          <p>
+            By day I'm contracting as a Tech Lead. The rest of the time I'm
+            building <Link href="https://layzer.ai">Layzer</Link> — an AI chat platform
+            in the spirit of <Link href="https://poe.com">Poe</Link>, <Link
+              href="https://librechat.ai">LibreChat</Link
+            >, and <Link href="https://openwebui.com">Open WebUI</Link>. The
+            idea is simple: pick any AI model and give it superpowers — custom
+            assistants, tools, and a clean place to actually use them. Free to
+            try.
+          </p>
+          <p>
+            Outside of code, life is full — twin toddlers will do that to a
+            calendar.
+          </p>
+        </article>
+      </section>
 
-        <section class="animate space-y-6">
-          <div class="flex flex-wrap items-center justify-between gap-y-2">
-            <h2 class="font-semibold text-black dark:text-white">
-              Recent projects
-            </h2>
-            <Link href="/projects"> See all projects </Link>
-          </div>
-          <ul class="not-prose flex flex-col gap-4">
-            {
-              projects.map((project) => (
-                <li>
-                  <ArrowCard entry={project} />
-                </li>
-              ))
-            }
-          </ul>
-        </section>
+      <section class="animate space-y-6">
+        <div class="flex flex-wrap items-center justify-between gap-y-2">
+          <h2>Latest posts</h2>
+          <Link href="/blog/"> See all posts </Link>
+        </div>
+        <ul class="not-prose flex flex-col gap-4">
+          {
+            blog.map((post) => (
+              <li>
+                <ArrowCard entry={post} />
+              </li>
+            ))
+          }
+        </ul>
+      </section>
 
-        <section class="animate space-y-4">
-          <div class="flex flex-wrap items-center justify-between gap-y-2">
-            <h2 class="font-semibold text-black dark:text-white">
-              Let's Connect
-            </h2>
-            <Link href="/connect">See full page</Link>
-          </div>
-          <ConnectContent />
-        </section>
-      </div>
-    </aside>
+      <section class="animate space-y-6">
+        <div class="flex flex-wrap items-center justify-between gap-y-2">
+          <h2>Recent projects</h2>
+          <Link href="/projects/"> See all projects </Link>
+        </div>
+        <ul class="not-prose flex flex-col gap-4">
+          {
+            projects.map((project) => (
+              <li>
+                <ArrowCard entry={project} />
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section class="animate space-y-4">
+        <div class="flex flex-wrap items-center justify-between gap-y-2">
+          <h2>Let's Connect</h2>
+          <Link href="/connect/">See full page</Link>
+        </div>
+        <ConnectContent />
+      </section>
+    </div>
   </Container>
 </Layout>

@@ -31,7 +31,6 @@ import Search from "astro-pagefind/components/Search";
 </aside>
 
 <script is:inline>
-  const magnifyingGlass = document.getElementById("magnifying-glass");
   const backdrop = document.getElementById("backdrop");
 
   function openPagefind() {
@@ -51,10 +50,11 @@ import Search from "astro-pagefind/components/Search";
     backdrop?.classList.add("invisible");
   }
 
-  // open pagefind
-  magnifyingGlass?.addEventListener("click", () => {
-    openPagefind();
-  });
+  document
+    .querySelectorAll("[data-search-trigger]")
+    .forEach((trigger) =>
+      trigger.addEventListener("click", () => openPagefind()),
+    );
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "/") {
