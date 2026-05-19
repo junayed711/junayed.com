@@ -8,7 +8,13 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: "https://junayed.com",
   trailingSlash: "always",
-  integrations: [sitemap(), mdx(), pagefind()],
+  integrations: [
+    sitemap({
+      filter: (page) => !page.startsWith("https://junayed.com/tags"),
+    }),
+    mdx(),
+    pagefind(),
+  ],
   vite: {
     plugins: [tailwindcss()],
   },
