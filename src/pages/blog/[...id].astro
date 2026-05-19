@@ -54,7 +54,7 @@ const { Content, headings } = await render(post);
 <Layout title={post.data.title} description={post.data.description}>
   <Container>
     <div class="animate">
-      <BackToPrevious href="/blog">Back to blog</BackToPrevious>
+      <BackToPrevious href="/blog/">Back to blog</BackToPrevious>
     </div>
     <div class="my-10 space-y-1">
       <div class="animate flex items-center gap-1.5">
@@ -76,7 +76,7 @@ const { Content, headings } = await render(post);
           <div class="animate flex gap-2 pt-1">
             {post.data.tags.map((tag) => (
               <a
-                href={`/tags/${tag}`}
+                href={`/tags/${tag}/`}
                 class="rounded-sm border border-black/15 px-2 py-1 text-sm transition-colors duration-300 ease-in-out hover:bg-black/5 hover:text-black focus-visible:bg-black/5 focus-visible:text-black dark:border-white/20 dark:hover:bg-white/5 dark:hover:text-white dark:focus-visible:bg-white/5 dark:focus-visible:text-white"
               >
                 {tag}
