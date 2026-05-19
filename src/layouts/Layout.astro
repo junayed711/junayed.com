@@ -34,6 +34,7 @@ const { title, description, noindex = false } = Astro.props;
     </noscript>
     <div
       id="mobile-menu-backdrop"
+      transition:persist
       aria-hidden="true"
       class="invisible fixed inset-0 z-40 bg-neutral-100/85 opacity-0 backdrop-blur-md transition-opacity duration-200 ease-out dark:bg-neutral-900/85 sm:hidden"
     ></div>
