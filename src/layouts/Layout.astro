@@ -23,7 +23,7 @@ const { title, description, noindex = false } = Astro.props;
       noindex={noindex}
     />
   </head>
-  <body>
+  <body data-pagefind-ignore={noindex || undefined}>
     <noscript>
       <style>
         .animate{
