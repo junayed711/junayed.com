@@ -81,6 +81,7 @@ const searchIcon = `<svg height="16" stroke-linejoin="round" viewBox="0 0 16 16"
   function initHamburger() {
     const hamburger = document.getElementById("hamburger");
     const mobileMenu = document.getElementById("mobile-menu");
+    const backdrop = document.getElementById("mobile-menu-backdrop");
     if (!hamburger || !mobileMenu || hamburger.dataset.wired === "true") return;
     hamburger.dataset.wired = "true";
 
@@ -88,19 +89,35 @@ const searchIcon = `<svg height="16" stroke-linejoin="round" viewBox="0 0 16 16"
       hamburger.setAttribute("aria-expanded", "false");
       mobileMenu.classList.add("hidden");
       mobileMenu.classList.remove("flex");
+      backdrop?.classList.add("invisible", "opacity-0");
+      backdrop?.classList.remove("visible", "opacity-100");
+      document.body.style.overflow = "";
+    }
+
+    function openMenu() {
+      hamburger.setAttribute("aria-expanded", "true");
+      mobileMenu.classList.remove("hidden");
+      mobileMenu.classList.add("flex");
+      backdrop?.classList.remove("invisible", "opacity-0");
+      backdrop?.classList.add("visible", "opacity-100");
+      document.body.style.overflow = "hidden";
     }
 
     function toggleMenu() {
       const isOpen = hamburger.getAttribute("aria-expanded") === "true";
-      hamburger.setAttribute("aria-expanded", String(!isOpen));
-      mobileMenu.classList.toggle("hidden");
-      mobileMenu.classList.toggle("flex");
+      isOpen ? closeMenu() : openMenu();
     }
 
     hamburger.addEventListener("click", toggleMenu);
+    backdrop?.addEventListener("click", closeMenu);
     mobileMenu
       .querySelectorAll("a")
       .forEach((link) => link.addEventListener("click", closeMenu));
+
+    const desktopBreakpoint = window.matchMedia("(min-width: 640px)");
+    desktopBreakpoint.addEventListener("change", (event) => {
+      if (event.matches) closeMenu();
+    });
   }
 
   initHamburger();
