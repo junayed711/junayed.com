@@ -6,16 +6,16 @@ export const SITE_URL = "https://junayed.com";
 export const SITE: Site = {
   TITLE: "Junayed",
   DESCRIPTION:
-    "Sleep-deprived twin dad with a day job, building Layzer on the side.",
+    "Sleep-deprived twin dad with a day job, building GateBolt on the side.",
   EMAIL: "hello@junayed.com",
   NUM_POSTS_ON_HOMEPAGE: 5,
-  NUM_PROJECTS_ON_HOMEPAGE: 3,
+  NUM_PROJECTS_ON_HOMEPAGE: 5,
 };
 
 export const HOME: Metadata = {
   TITLE: "Home",
   DESCRIPTION:
-    "Sleep-deprived twin dad with a day job, building Layzer on the side.",
+    "Sleep-deprived twin dad with a day job, building GateBolt on the side.",
 };
 
 export const BLOG: Metadata = {
