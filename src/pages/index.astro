@@ -3,7 +3,7 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
 import { SITE, SITE_URL, HOME, SOCIALS } from "@consts";
 import ArrowCard from "@components/ArrowCard.astro";
-import ConnectContent from "@components/ConnectContent.astro";
+import ContactList from "@components/ContactList.astro";
 import Link from "@components/Link.astro";
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
@@ -110,11 +110,8 @@ const personJsonLd = {
       </section>
 
       <section class="animate space-y-4">
-        <div class="flex flex-wrap items-center justify-between gap-y-2">
-          <h2>Let's Connect</h2>
-          <Link href="/connect/">See full page</Link>
-        </div>
-        <ConnectContent />
+        <h2>Contact</h2>
+        <ContactList />
       </section>
     </div>
   </Container>

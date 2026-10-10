@@ -1,15 +1,15 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import ConnectContent from "@components/ConnectContent.astro";
-import { CONNECT } from "@consts";
+import ContactList from "@components/ContactList.astro";
+import { CONTACT } from "@consts";
 ---
 
-<Layout title={CONNECT.TITLE} description={CONNECT.DESCRIPTION}>
+<Layout title={CONTACT.TITLE} description={CONTACT.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
-      <h1 class="animate">Let's Connect</h1>
-      <ConnectContent />
+      <h1 class="animate">Contact</h1>
+      <ContactList />
     </div>
   </Container>
 </Layout>
