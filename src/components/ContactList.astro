@@ -1,0 +1,85 @@
+---
+import { BOOKING, SITE, SOCIALS } from "@consts";
+
+const rows = [
+  {
+    NAME: "Email",
+    HANDLE: SITE.EMAIL,
+    HREF: `mailto:${SITE.EMAIL}`,
+    external: false,
+  },
+  ...[BOOKING, ...SOCIALS].map((contact) => ({ ...contact, external: true })),
+];
+
+const highlight =
+  "transition-colors duration-300 ease-in-out hover:bg-black/5 hover:text-black focus-visible:bg-black/5 focus-visible:text-black dark:hover:bg-white/5 dark:hover:text-white dark:focus-visible:bg-white/5 dark:focus-visible:text-white";
+---
+
+<ul class="animate not-prose border-t border-black/15 dark:border-white/20">
+  {
+    rows.map((row) => (
+      <li class="flex items-center gap-2 border-b border-black/15 dark:border-white/20">
+        <a
+          href={row.HREF}
+          target={row.external ? "_blank" : undefined}
+          rel={row.external ? "noopener" : undefined}
+          class:list={[
+            "flex min-w-0 flex-1 items-baseline justify-between gap-4 px-2 py-4",
+            highlight,
+          ]}
+        >
+          <span class="shrink-0 font-semibold text-black dark:text-white">
+            {row.NAME}
+          </span>
+          <span class="truncate">{row.HANDLE}</span>
+        </a>
+        {!row.external && (
+          <>
+            <button
+              type="button"
+              data-copy={row.HANDLE}
+              aria-label="Copy email address"
+              class:list={[
+                "shrink-0 rounded-sm border border-black/15 px-3 py-2 text-sm dark:border-white/20",
+                highlight,
+              ]}
+            >
+              Copy
+            </button>
+            <span data-copy-status role="status" class="sr-only" />
+          </>
+        )}
+      </li>
+    ))
+  }
+</ul>
+
+<script>
+  const timers = new WeakMap<HTMLElement, number>();
+
+  document.addEventListener("click", async (event) => {
+    const button = (event.target as Element).closest<HTMLElement>(
+      "[data-copy]",
+    );
+    if (!button || !navigator.clipboard) return;
+
+    try {
+      await navigator.clipboard.writeText(button.dataset.copy ?? "");
+    } catch {
+      return;
+    }
+
+    const status = button.parentElement?.querySelector("[data-copy-status]");
+    button.textContent = "Copied";
+    if (status) status.textContent = "Email address copied";
+
+    window.clearTimeout(timers.get(button));
+    timers.set(
+      button,
+      window.setTimeout(() => {
+        button.textContent = "Copy";
+        if (status) status.textContent = "";
+      }, 2000),
+    );
+  });
+</script>
