@@ -30,7 +30,11 @@ const isActive = (href: string) => currentPath.startsWith(href);
       <nav class="hidden items-center gap-4 text-sm sm:flex">
         {
           navItems.map((item) => (
-            <Link href={item.href} active={isActive(item.href)} data-nav-link>
+            <Link
+              href={item.href}
+              active={isActive(item.href)}
+              data-nav-link
+            >
               {item.label}
             </Link>
           ))
