@@ -1,4 +1,4 @@
-import type { Metadata, Site, Socials } from "@types";
+import type { Contact, Metadata, Site, Socials } from "@types";
 
 // Must match `site` in astro.config.mjs.
 export const SITE_URL = "https://junayed.com";
@@ -33,17 +33,26 @@ export const CONNECT: Metadata = {
   DESCRIPTION: "Get in touch — socials and email.",
 };
 
+export const BOOKING: Contact = {
+  NAME: "Book a call",
+  HANDLE: "cal.eu/junayed711",
+  HREF: "https://www.cal.eu/junayed711",
+};
+
 export const SOCIALS: Socials = [
   {
-    NAME: "X (formerly Twitter)",
+    NAME: "LinkedIn",
+    HANDLE: "in/junayed711",
+    HREF: "https://www.linkedin.com/in/junayed711",
+  },
+  {
+    NAME: "X",
+    HANDLE: "@junayed711",
     HREF: "https://x.com/junayed711",
   },
   {
     NAME: "GitHub",
+    HANDLE: "junayed711",
     HREF: "https://github.com/junayed711",
-  },
-  {
-    NAME: "LinkedIn",
-    HREF: "https://www.linkedin.com/in/junayed711",
   },
 ];
