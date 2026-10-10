@@ -11,7 +11,10 @@ export type Metadata = {
   DESCRIPTION: string;
 };
 
-export type Socials = {
+export type Contact = {
   NAME: string;
+  HANDLE: string;
   HREF: string;
-}[];
+};
+
+export type Socials = Contact[];
