@@ -28,9 +28,9 @@ export const PROJECTS: Metadata = {
   DESCRIPTION: "Things I'm building — side projects, experiments, and tools.",
 };
 
-export const CONNECT: Metadata = {
-  TITLE: "Let's Connect",
-  DESCRIPTION: "Get in touch — socials and email.",
+export const CONTACT: Metadata = {
+  TITLE: "Contact",
+  DESCRIPTION: "Email, calendar and socials for getting in touch with Junayed.",
 };
 
 export const BOOKING: Contact = {
