@@ -6,6 +6,8 @@ draft: false
 tags:
   - proxmox
   - homelab
+  - security
+  - networking
   - virtualisation
 ---
 
