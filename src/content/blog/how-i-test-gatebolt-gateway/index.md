@@ -29,7 +29,7 @@ The gateway sits between Claude Code and Anthropic. It gives Claude an extra too
 
 ## How
 
-I run the same tasks three ways: **Direct** (no gateway, the baseline), **Record** and **Enforce**. Each task runs in Claude Code, in a fresh Docker container, in [my lab](/series/the-lab/).
+I run the same tasks three ways: **Direct** (no gateway, the baseline), **Record** and **Enforce**. Each task runs in Claude Code, in a fresh Docker container, in [my lab](/series/a-lab-for-breaking-things/).
 
 Claude Code runs on my own subscription, signed in with a token from `claude setup-token`. So any cost I report is an estimate, not a bill.
 

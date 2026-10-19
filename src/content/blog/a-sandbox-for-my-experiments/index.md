@@ -2,7 +2,7 @@
 title: "A throwaway server for risky experiments"
 description: "A small Proxmox server on its own 4G network, so I can try things without going anywhere near my home network."
 date: "2026-10-17"
-series: "The lab"
+series: "A lab for breaking things"
 order: 1
 draft: false
 tags:
