@@ -37,7 +37,9 @@ if (
   const series = props.entry.data.series;
   const posts = await getSeriesPosts(series);
   const position = posts.findIndex((post) => post.id === props.entry.id) + 1;
-  seriesLabel = `${series} · ${position} of ${posts.length}`;
+  if (posts.length > 1) {
+    seriesLabel = `${series} · ${position} of ${posts.length}`;
+  }
 }
 ---
 
