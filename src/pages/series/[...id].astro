@@ -1,0 +1,41 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import ArrowCard from "@components/ArrowCard.astro";
+import BackToPrevious from "@components/BackToPrevious.astro";
+import { getAllSeries, getSeriesPosts, seriesSlug } from "@lib/series";
+
+export async function getStaticPaths() {
+  return (await getAllSeries()).map((name) => ({
+    params: { id: seriesSlug(name) },
+    props: { name },
+  }));
+}
+type Props = { name: string };
+
+const { name } = Astro.props;
+const posts = await getSeriesPosts(name);
+---
+
+<Layout
+  title={name}
+  description={`${name}: every post in the series, in the order to read it.`}
+>
+  <Container>
+    <div class="space-y-10">
+      <div class="animate">
+        <BackToPrevious href="/series/">Back to series</BackToPrevious>
+      </div>
+      <h1 class="animate">{name}</h1>
+      <ol class="animate not-prose flex flex-col gap-4">
+        {
+          posts.map((post) => (
+            <li>
+              <ArrowCard entry={post} showSeries={false} />
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </Container>
+</Layout>

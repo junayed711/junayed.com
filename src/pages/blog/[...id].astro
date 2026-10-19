@@ -8,12 +8,14 @@ import BackToPrevious from "@components/BackToPrevious.astro";
 import PostNavigation from "@components/PostNavigation.astro";
 import TableOfContents from "@components/TableOfContents.astro";
 import Giscus from "@components/Giscus.astro";
+import SeriesBox from "@components/SeriesBox.astro";
+import { getSeriesPosts, newestFirst } from "@lib/series";
 import { SITE, SITE_URL } from "@consts";
 
 export async function getStaticPaths() {
   const posts = (await getCollection("blog"))
     .filter((post) => !post.data.draft)
-    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+    .sort(newestFirst);
   return posts.map((post) => ({
     params: { id: post.id },
     props: post,
@@ -23,7 +25,7 @@ type Props = CollectionEntry<"blog">;
 
 const posts = (await getCollection("blog"))
   .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  .sort(newestFirst);
 
 function getNextPost() {
   let postIndex;
@@ -45,10 +47,14 @@ function getPrevPost() {
   }
 }
 
-const nextPost = getNextPost();
-const prevPost = getPrevPost();
-
 const post = Astro.props;
+
+const seriesPosts = post.data.series ? await getSeriesPosts(post.data.series) : [];
+const seriesIndex = seriesPosts.findIndex((entry) => entry.id === post.id);
+const inSeries = seriesIndex >= 0 && seriesPosts.length > 1;
+const nextPost = inSeries ? seriesPosts[seriesIndex + 1] : getNextPost();
+const prevPost = inSeries ? seriesPosts[seriesIndex - 1] : getPrevPost();
+
 const { Content, headings } = await render(post);
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
@@ -113,6 +119,7 @@ const blogPostingJsonLd = {
         ) : null
       }
     </div>
+    <SeriesBox post={post} />
     {headings.length > 0 && <TableOfContents headings={headings} />}
     <article class="animate">
       <Content />

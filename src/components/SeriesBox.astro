@@ -1,0 +1,42 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Link from "@components/Link.astro";
+import { getSeriesPosts, seriesSlug } from "@lib/series";
+
+type Props = {
+  post: CollectionEntry<"blog">;
+};
+
+const { post } = Astro.props;
+const series = post.data.series;
+const posts = series ? await getSeriesPosts(series) : [];
+---
+
+{
+  series && (
+    <nav
+      aria-label={`Series: ${series}`}
+      class="animate not-prose mb-10 rounded-lg border border-black/15 px-4 py-3 text-sm dark:border-white/20"
+    >
+      <div>
+        Part of <Link href={`/series/${seriesSlug(series)}/`}>{series}</Link>
+      </div>
+      <ol class="mt-2 list-decimal space-y-1 pl-5">
+        {posts.map((entry) => (
+          <li>
+            {entry.id === post.id ? (
+              <span
+                aria-current="page"
+                class="font-semibold text-black dark:text-white"
+              >
+                {entry.data.title}
+              </span>
+            ) : (
+              <Link href={`/blog/${entry.id}/`}>{entry.data.title}</Link>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+  )
+}

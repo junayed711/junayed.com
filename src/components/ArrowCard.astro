@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { getSeriesPosts } from "@lib/series";
 
 type Card = {
   href: string;
@@ -10,7 +11,10 @@ type Card = {
 };
 
 type Props =
-  | { entry: CollectionEntry<"blog"> | CollectionEntry<"projects"> }
+  | {
+      entry: CollectionEntry<"blog"> | CollectionEntry<"projects">;
+      showSeries?: boolean;
+    }
   | Card;
 
 const props = Astro.props as Props;
@@ -22,6 +26,19 @@ const card: Card =
         description: props.entry.data.description,
       }
     : props;
+
+let seriesLabel: string | undefined;
+if (
+  "entry" in props &&
+  props.showSeries !== false &&
+  props.entry.collection === "blog" &&
+  props.entry.data.series
+) {
+  const series = props.entry.data.series;
+  const posts = await getSeriesPosts(series);
+  const position = posts.findIndex((post) => post.id === props.entry.id) + 1;
+  seriesLabel = `${series} · ${position} of ${posts.length}`;
+}
 ---
 
 <a
@@ -38,6 +55,11 @@ const card: Card =
       <div class="text-sm">
         {card.description}
       </div>
+      {seriesLabel && (
+        <div class="mt-1 text-xs text-black/60 dark:text-white/60">
+          {seriesLabel}
+        </div>
+      )}
     </slot>
   </div>
   {

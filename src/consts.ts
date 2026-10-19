@@ -28,6 +28,11 @@ export const PROJECTS: Metadata = {
   DESCRIPTION: "Things I'm building — side projects, experiments, and tools.",
 };
 
+export const SERIES_PAGE: Metadata = {
+  TITLE: "Series",
+  DESCRIPTION: "Posts that belong together, in the order to read them.",
+};
+
 export const CONTACT: Metadata = {
   TITLE: "Contact",
   DESCRIPTION: "Email, calendar and socials for getting in touch with Junayed.",

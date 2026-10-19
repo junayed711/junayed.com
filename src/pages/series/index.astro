@@ -1,0 +1,37 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import ArrowCard from "@components/ArrowCard.astro";
+import { SERIES_PAGE } from "@consts";
+import { getAllSeries, getSeriesPosts, seriesSlug } from "@lib/series";
+
+const series = await Promise.all(
+  (await getAllSeries()).map(async (name) => ({
+    name,
+    count: (await getSeriesPosts(name)).length,
+  })),
+);
+---
+
+<Layout title={SERIES_PAGE.TITLE} description={SERIES_PAGE.DESCRIPTION}>
+  <Container>
+    <div data-pagefind-ignore>
+      <div class="space-y-10">
+        <h1 class="animate">Series</h1>
+        <ul class="animate not-prose flex flex-col gap-4">
+          {
+            series.map(({ name, count }) => (
+              <li>
+                <ArrowCard
+                  href={`/series/${seriesSlug(name)}/`}
+                  title={name}
+                  description={`${count} ${count === 1 ? "post" : "posts"}`}
+                />
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </Container>
+</Layout>
