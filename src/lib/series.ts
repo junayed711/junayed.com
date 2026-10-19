@@ -1,6 +1,5 @@
 import { getCollection } from "astro:content";
 
-// "The lab" -> "the-lab"
 export function seriesSlug(name: string) {
   return name
     .toLowerCase()
@@ -26,8 +25,7 @@ export async function getAllSeries() {
 
 type Dated = { data: { date: Date; series?: string; order?: number } };
 
-// Posts published on the same day stay together by series, and within a
-// series the later post comes first.
+// Same day: group by series, later post first.
 export function newestFirst(a: Dated, b: Dated) {
   return (
     b.data.date.valueOf() - a.data.date.valueOf() ||

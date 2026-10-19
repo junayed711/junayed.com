@@ -49,7 +49,6 @@ function getPrevPost() {
 
 const post = Astro.props;
 
-// Posts in a series link to their neighbours in the series, in reading order.
 const seriesPosts = post.data.series ? await getSeriesPosts(post.data.series) : [];
 const seriesIndex = seriesPosts.findIndex((entry) => entry.id === post.id);
 const inSeries = seriesIndex >= 0 && seriesPosts.length > 1;
