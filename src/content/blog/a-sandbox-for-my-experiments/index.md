@@ -1,7 +1,9 @@
 ---
-title: "A sandbox for my experiments"
+title: "A throwaway server for risky experiments"
 description: "A small Proxmox server on its own 4G network, so I can try things without going anywhere near my home network."
 date: "2026-10-17"
+series: "The lab"
+order: 1
 draft: false
 tags:
   - proxmox
