@@ -2,7 +2,7 @@
 title: "How I measure what my AI gateway costs"
 description: "How I check that GateBolt Gateway works, and measure what it costs, by running the same tasks with and without it."
 date: "2026-10-19"
-series: "Does GateBolt Gateway get in the way?"
+series: "Putting my AI gateway to the test"
 order: 1
 draft: false
 tags:
@@ -13,7 +13,7 @@ tags:
   - ai-agents
 ---
 
-This post is about how I test [**GateBolt Gateway**](https://gatebolt.com). It covers the method, which stays the same from run to run. Each run, with its own LLM and set of tests, gets [its own post](/series/does-gatebolt-gateway-get-in-the-way/).
+This post is about how I test [**GateBolt Gateway**](https://gatebolt.com). It covers the method, which stays the same from run to run. Each run, with its own LLM and set of tests, gets [its own post](/series/putting-my-ai-gateway-to-the-test/).
 
 ## What the gateway does
 

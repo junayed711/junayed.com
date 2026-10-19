@@ -13,7 +13,7 @@ const posts = series ? await getSeriesPosts(series) : [];
 ---
 
 {
-  series && (
+  series && posts.length > 1 && (
     <nav
       aria-label={`Series: ${series}`}
       class="animate not-prose mb-10 rounded-lg border border-black/15 px-4 py-3 text-sm dark:border-white/20"
