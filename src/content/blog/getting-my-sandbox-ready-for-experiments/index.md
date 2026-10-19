@@ -2,7 +2,7 @@
 title: "Getting the throwaway server ready"
 description: "The post-install script, the answers I pick, and how I update my Proxmox sandbox and get it ready for VMs."
 date: "2026-10-17"
-series: "The lab"
+series: "A lab for breaking things"
 order: 2
 draft: false
 tags:
