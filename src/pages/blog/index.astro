@@ -4,10 +4,11 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import { BLOG } from "@consts";
+import { newestFirst } from "@lib/series";
 
 const data = (await getCollection("blog"))
   .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  .sort(newestFirst);
 
 type Acc = {
   [year: string]: CollectionEntry<"blog">[];
