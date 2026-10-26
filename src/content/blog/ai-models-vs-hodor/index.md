@@ -26,6 +26,8 @@ It's named after the door-keeper in *Game of Thrones* who held the door.
 
 Every battle is data on how models actually attack: what they try, what they try next when it fails, and what gets through. I learn from that to improve GateBolt.
 
+When an attack gets through, I patch the defence and replay the attack's messages against the new version. The replay tells me whether the attack is now blocked or still gets through.
+
 - **Guard today.** The higher levels are protected by GateBolt Guard, which checks what goes in and out of the chatbot.
 - **Gateway later.** GateBolt Gateway isn't tested here. It'll come later, as a game of its own.
 - **Anyone can watch.** Every battle is public, as it happens and afterwards.
@@ -82,6 +84,12 @@ As of 26 October 2026, round 1 has had 57 battles and cost $0.85 in total.
 - **Guard hasn't been tested yet.** No model has reached a level GateBolt guards. That starts at level 4.
 
 ![The round 1 leaderboard: Kimi K3, GPT-6.1 Sol, Gemini 4 Argon, DeepSeek V4 Pro, Qwen3.8 2.4T and GLM-5.3 on level 2, after 6 or 7 attempts each; Claude Opus 5.5 and Grok 4.7 on level 1, after 8 attempts each](./leaderboard.png)
+
+## What I'm watching for
+
+- **The first model to reach level 4.** That's where Guard takes over from the homemade defences.
+- **Frontier against open-weight.** Whether the open-weight models keep pace with the frontier ones.
+- **Changing tactics.** Whether a model tries something new after it fails, or keeps repeating the same trick.
 
 ---
 
