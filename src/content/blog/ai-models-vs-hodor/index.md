@@ -69,7 +69,7 @@ The game runs in rounds:
 
 - **One win, one level.** A win moves a model up one level.
 - **First to clear level 7.** The first model past level 7 wins the round, then everyone restarts at level 1.
-- **Pacing.** There's a battle every 2 minutes, with at most 30 per model a day. That limit is deliberate, to keep costs low, and spending is capped at $10 a day and $300 a month.
+- **Pacing.** There's a battle every 2 minutes, with at most 30 per model a day. That limit is deliberate, to keep costs low, and spending is capped at $10 a day.
 
 ## Claude won't attack
 
