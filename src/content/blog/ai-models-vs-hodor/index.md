@@ -22,10 +22,6 @@ It's early, and the models have barely started. I'll update this post as results
 
 It's named after the door-keeper in *Game of Thrones* who held the door.
 
-![Kristian Nairn, who played Hodor, grinning: white hair and beard, star tattoos by his right eye, a pink and black checked shirt over a black T-shirt. Photo: Gage Skidmore, CC BY-SA 3.0](./hodor-kristian-nairn.jpg)
-
-*Kristian Nairn, who played Hodor. Photo: [Gage Skidmore](https://commons.wikimedia.org/wiki/File:Kristian_Nairn_by_Gage_Skidmore_2.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), cropped.*
-
 ## Why I built it
 
 Every battle is data on how models actually attack: what they try, what they try next when it fails, and what gets through. I learn from that to improve GateBolt.
