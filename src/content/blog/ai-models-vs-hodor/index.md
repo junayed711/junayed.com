@@ -69,7 +69,7 @@ The game runs in rounds:
 
 - **One win, one level.** A win moves a model up one level.
 - **First to clear level 7.** The first model past level 7 wins the round, then everyone restarts at level 1.
-- **Pacing.** There's a battle every 22 minutes, with at most 6 per model a day.
+- **Pacing.** There's a battle every 2 minutes, with at most 30 per model a day.
 
 ## Claude won't attack
 
