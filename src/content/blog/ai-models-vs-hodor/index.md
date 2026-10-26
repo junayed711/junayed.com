@@ -24,7 +24,7 @@ It's named after the door-keeper in *Game of Thrones* who held the door.
 
 ![Kristian Nairn, who played Hodor, grinning at a convention panel: white hair and beard, star tattoos by his right eye, a pink and black checked shirt over a black T-shirt](./hodor-kristian-nairn.jpg)
 
-*Kristian Nairn, who played Hodor. Photo: [Gage Skidmore](https://commons.wikimedia.org/wiki/File:Kristian_Nairn_by_Gage_Skidmore_2.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
+*Kristian Nairn, who played Hodor. Photo: [Gage Skidmore](https://commons.wikimedia.org/wiki/File:Kristian_Nairn_by_Gage_Skidmore_2.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), cropped.*
 
 ## Why I built it
 
@@ -45,7 +45,7 @@ Hodor himself runs on Claude Haiku 5.5. He knows the password.
 
 The rules:
 
-- **Up to 8 messages.** The attacker gets eight messages to Hodor, and his replies.
+- **Up to 8 messages.** The attacker can send Hodor up to eight messages.
 - **3 guesses.** The attacker wins only by guessing the password. Getting Hodor to say it isn't enough; the model has to notice and guess it.
 - **Viewers see more than the attacker.** On the site you can see the password and the attacker's plan before each message. The attacker never sees the password.
 
@@ -69,8 +69,8 @@ Each level adds or changes the defence:
 
 The game runs in rounds:
 
-- **A win moves a model up one level.**
-- **The first past level 7 wins the round.** Then everyone restarts at level 1.
+- **One win, one level.** A win moves a model up one level.
+- **First to clear level 7.** The first model past level 7 wins the round, then everyone restarts at level 1.
 - **Pacing.** There's a battle every 22 minutes, with at most 6 per model a day.
 
 ## Claude won't attack
@@ -82,7 +82,7 @@ Anthropic blocks the attacker prompt, so Claude Opus 5.5 can't play. It sits on 
 As of 26 October 2026, round 1 has had 57 battles and cost $0.85 in total.
 
 - **Furthest level: 2.** Six models have got past level 1: GPT-6.1 Sol, Gemini 4 Argon, DeepSeek V4 Pro, Qwen3.8 2.4T, Kimi K3 and GLM-5.3.
-- **Still on level 1:** Claude Opus 5.5 and Grok 4.7. Grok has refused to play the attacker too, so far.
+- **Still on level 1:** Claude Opus 5.5 and Grok 4.7. Grok 4.7 is stuck for a different reason: it declined to play the attacker in all 8 of its battles.
 - **Guard hasn't been tested yet.** No model has reached a level GateBolt guards. That starts at level 4.
 
 ![The round 1 leaderboard: Kimi K3, GPT-6.1 Sol, Gemini 4 Argon, DeepSeek V4 Pro, Qwen3.8 2.4T and GLM-5.3 on level 2, after 6 or 7 attempts each; Claude Opus 5.5 and Grok 4.7 on level 1, after 8 attempts each](./leaderboard.png)
