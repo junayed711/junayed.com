@@ -22,10 +22,6 @@ It's early, and the models have barely started. I'll update this post as results
 
 It's named after the door-keeper in *Game of Thrones* who held the door.
 
-![A cosplayer dressed as Hodor on stage at Con of Thrones: ginger beard, a long ragged brown robe with a leather strap across his chest, and a Bran puppet riding on his back. Photo: Gage Skidmore, CC BY-SA 2.0](./hodor-cosplay.jpg)
-
-*A Hodor cosplayer at Con of Thrones. Photo: [Gage Skidmore](https://commons.wikimedia.org/wiki/File:Hodor_cosplayer_(34909729373).jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).*
-
 ## Why I built it
 
 Every battle is data on how models actually attack: what they try, what they try next when it fails, and what gets through. I learn from that to improve GateBolt.
