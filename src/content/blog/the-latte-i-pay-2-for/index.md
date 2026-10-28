@@ -56,6 +56,8 @@ It's a loophole, and you do have to go out of your way for it. Here's what it ta
 
 It's fiddly, I won't pretend otherwise. But I've done it long enough that I've got it down to a routine.
 
+Each sim gets its own day of the week. In the morning, I open that day's copy of the Three+ app, find the Caffè Nero reward and activate it. That starts the one-hour clock, so I only do it once I'm heading in. I show the QR code, pay £2, and that number's reward is done for the week. Tomorrow, it's the next copy of the app.
+
 ## The money
 
 Seven sims at £25 each is £175, and that covers two years. My first set ran out, so I bought a second. That's £350 so far.
