@@ -34,7 +34,7 @@ One of the rewards is a weekly Caffè Nero drink for £2. The terms on the rewar
 
 The catch is that each Three number only gets one £2 coffee a week. I have one every day, so I'd need seven numbers to cover the whole week.
 
-More Three SIMs would mean more rewards, but a normal SIM means a contract, and even a cheap one is around £10 a month. For six extra SIMs, that's £60 a month just to unlock six coffees a week. That wipes out most of the saving.
+More Three SIMs would mean more rewards, but a normal SIM means a contract, and even a cheap one is around £10 a month. For seven SIMs, that's £70 a month just to unlock seven coffees a week. That wipes out most of the saving.
 
 ## The trick
 
