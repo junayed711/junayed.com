@@ -11,7 +11,7 @@ tags:
 
 Most mornings, I'm up at 3:30am. With twin boys at home, if I want any time to myself, it has to be before everyone else wakes up. So the early hours are mine: working on my startups, some meditation, a walk.
 
-And a coffee. A large oat latte from my local Caffè Nero, first thing. It's about £4.50 a day, and it adds up: over a year, that's more than £1,600.
+And a coffee. A large oat latte from my local Caffè Nero, first thing. Caffè Nero is known for its coffee, and it really is good. It's about £4.50 a day, and it adds up: over a year, that's more than £1,600.
 
 So I found a way to pay £1 for it instead. It's £2 now, but I'll get to that.
 
