@@ -1,0 +1,75 @@
+---
+title: "The £4.50 latte I pay £2 for"
+description: "How seven cheap business SIMs and a phone rewards scheme turned my daily Caffè Nero latte into a £2 habit."
+date: "2026-10-28"
+draft: false
+tags:
+  - money
+  - coffee
+  - life
+---
+
+Most mornings, I'm up at 3:30am. With twin boys at home, if I want any time to myself, it has to be before everyone else wakes up. So the early hours are mine: working on my startups, some meditation, a walk.
+
+And a coffee. A large oat latte from my local Caffè Nero, first thing. And it really is good. It's about £4.50 a day, and it adds up: over a year, that's more than £1,600.
+
+So I found a way to pay £1 for it instead. It's £2 now, but I'll get to that.
+
+![Business SIM packs from the network Three, laid out on a carpet above four pocket Wi-Fi hotspots: two Vodafone and two ZTE](./sims-and-hotspots.jpg)
+
+## Three+
+
+Three, the mobile network, has a rewards programme. It's had a few different names over the years, and now it's called Three+. If you're a Three customer, you're in it.
+
+One of the rewards is a weekly Caffè Nero drink for £2. The terms on the reward screen:
+
+- One code per customer per week
+- Any barista-made hot or cold drink, any size
+- Milk alternatives and extras included
+- One hour to use it once you've activated it
+
+![The Three+ "Your reward code" screen, with the QR code blurred and the conditions underneath: any barista-made hot or cold drink for £2, one code per customer per week](./reward-code.jpg)
+
+## Why one SIM isn't enough
+
+The catch is that each Three number only gets one £2 coffee a week. I have one every day, so I'd need seven numbers to cover the whole week.
+
+More Three SIMs would mean more rewards, but a normal SIM usually means a monthly plan, and even a cheap one is around £10 a month. For seven SIMs, that's £70 a month just to unlock seven coffees a week. That wipes out most of the saving.
+
+## The trick
+
+Then I found out about Three business data SIMs, sold through a reseller. You pay £25 once and get 10GB of data a month for two years. No top-ups, nothing else to pay.
+
+Each one comes with its own number, and each number can be registered with Three+. So I bought seven. Seven SIMs, seven coffees a week.
+
+## The honest bit
+
+It's a loophole. Strictly, the terms say one code per customer, and I'm one customer with seven numbers. You also have to go out of your way for it. Here's what it takes:
+
+- **Cheap phones.** Second-hand 4G phones, to receive the text that activates each SIM.
+- **Second-hand pocket hotspots.** These hold the SIMs, so the data doesn't go to waste. When I'm experimenting with AI agents and need an isolated network to break things on, they give me one. It's the same idea as my [throwaway server for risky experiments](/blog/a-sandbox-for-my-experiments/).
+- **Clone apps.** You need the Three+ app open to show the QR code, so I use apps like Parallel Space to run several copies of it on one phone.
+
+![A phone folder called Utilities including Parallel Space, Parallel App and 2Accounts](./clone-apps.jpg)
+
+It's fiddly, and I won't pretend otherwise. But I've done it long enough that I've got it down to a routine.
+
+Each SIM gets its own day of the week. Once I'm heading in, I open that day's copy of the Three+ app, find the Caffè Nero reward and activate it. That starts the one-hour clock. I show the QR code, pay £2, and that number's reward is done for the week. The next day, it's the next copy.
+
+## The money
+
+Each SIM costs £25 and lasts two years. So seven of them cost £175, and that pays for two years of coffees. When the first seven ran out, I bought another seven. In total, I've spent £350 on SIMs.
+
+Then there's the kit. I've bought a few phones and pocket hotspots over the years, all second-hand from eBay at about £8 to £10 each. Altogether, I've spent about £100 on them.
+
+The latte normally costs £4.50. When I was paying £1, I saved £3.50 every time. Now that I pay £2, I save £2.50.
+
+I've done this almost every day for about three years. That's about £3,400 saved on coffees. Take off £350 for the SIMs and about £100 for the kit, and I'm nearly £3,000 up.
+
+Offers like this change, so if you fancy trying it, check what's available now rather than taking my prices as gospel.
+
+## Still a bargain
+
+When the reward went up from £1 to £2, I was a bit gutted. But I still get a £4.50 large oat latte for £2, every morning. That's a bargain.
+
+![A hand holding a Caffè Nero takeaway cup in front of a hedge](./coffee.jpg)
