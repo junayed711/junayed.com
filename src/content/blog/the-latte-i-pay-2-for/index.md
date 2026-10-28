@@ -1,6 +1,6 @@
 ---
 title: "The £4.50 latte I pay £2 for"
-description: "How a few cheap business sims and a phone rewards scheme turned my daily Caffè Nero latte into a £2 habit."
+description: "How seven cheap business sims and a phone rewards scheme turned my daily Caffè Nero latte into a £2 habit."
 date: "2026-10-28"
 draft: true
 tags:
@@ -15,7 +15,7 @@ Part of that routine is a large oat latte at my local Caffè Nero. That's about 
 
 So I found a way to pay £2 for it instead.
 
-![Three Three business sim packs laid out on a carpet above four pocket Wi-Fi hotspots: two Vodafone and two ZTE](./sims-and-hotspots.jpg)
+![Three business sim packs from Three, laid out on a carpet above four pocket Wi-Fi hotspots: two Vodafone and two ZTE](./sims-and-hotspots.jpg)
 
 ## Three+
 
@@ -48,8 +48,8 @@ Offers like this change, so if you fancy trying it, check what's on offer now ra
 
 It's a loophole, and you do have to go out of your way for it. Here's what it takes:
 
-- **Cheap phones.** Cheap £8 4G phones, so each sim can receive its registration text.
-- **Old pocket hotspots.** These hold the sims, so I'm not juggling seven phones.
+- **Cheap phones.** £8 4G phones, so each sim can receive its registration text.
+- **Old pocket hotspots.** These hold the sims.
 - **Clone apps.** You need the Three+ app open to show the QR code, so I use apps like Parallel Space to run several copies of it on one phone.
 
 ![A phone folder called Utilities with Parallel Space, Parallel App, 2Accounts, LocalSend and a second Parallel Space icon](./clone-apps.jpg)
@@ -64,6 +64,6 @@ When the coffee was £1, I was saving about £3.50 a cup. At £2, it's about £2
 
 ## Still a bargain
 
-The price going up to £2 stung a little. But a large oat latte for £2, every morning, is still a bargain. I'm not giving it up.
+The price going up to £2 stung a little. But a large oat latte for £2, every morning, is still a bargain.
 
 ![A hand holding a Caffè Nero takeaway cup in front of a hedge](./coffee.jpg)
