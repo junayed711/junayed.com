@@ -11,17 +11,17 @@ tags:
 
 Most mornings, I'm up at 3:30am. With twin boys at home, if I want any time to myself, it has to be before everyone else wakes up. So the early hours are mine: working on my startups, some meditation, a walk.
 
-And a coffee. A large oat latte from my local Caffè Nero, first thing. Caffè Nero is known for its coffee, and it really is good. It's about £4.50 a day, and it adds up: over a year, that's more than £1,600.
+And a coffee. A large oat latte from my local Caffè Nero, first thing. Caffè Nero's coffee really is good. It's about £4.50 a day, and it adds up: over a year, that's more than £1,600.
 
 So I found a way to pay £1 for it instead. It's £2 now, but I'll get to that.
 
-![Three business SIM packs from Three, laid out on a carpet above four pocket Wi-Fi hotspots: two Vodafone and two ZTE](./sims-and-hotspots.jpg)
+![Three business SIM packs from the network Three, laid out on a carpet above four pocket Wi-Fi hotspots: two Vodafone and two ZTE](./sims-and-hotspots.jpg)
 
 ## Three+
 
 Three, the mobile network, has a rewards programme. It's had a few different names over the years, and now it's called Three+. If you're a Three customer, you're in it.
 
-One of the rewards is a weekly Caffè Nero drink. It used to be £1. A couple of months ago it went up to £2. The terms on the reward screen are pretty generous:
+One of the rewards is a weekly Caffè Nero drink for £2. The terms on the reward screen:
 
 - One code per customer per week
 - Any barista-made hot or cold drink, any size
@@ -34,7 +34,7 @@ One of the rewards is a weekly Caffè Nero drink. It used to be £1. A couple of
 
 The catch is that each Three number only gets one £2 coffee a week. I have one every day, so I'd need seven numbers to cover the whole week.
 
-More Three SIMs would mean more rewards, but a normal SIM means a contract, and even a cheap one is around £10 a month. For six extra SIMs, that's £60 a month just to unlock six coffees a week. That wipes out almost all of the saving.
+More Three SIMs would mean more rewards, but a normal SIM means a contract, and even a cheap one is around £10 a month. For six extra SIMs, that's £60 a month just to unlock six coffees a week. That wipes out most of the saving.
 
 ## The trick
 
@@ -46,13 +46,13 @@ Offers like this change, so if you fancy trying it, check what's on offer now ra
 
 ## The honest bit
 
-It's a loophole, and you do have to go out of your way for it. Here's what it takes:
+It's a loophole. Strictly, the terms say one code per customer, and I'm one customer with seven numbers. You also have to go out of your way for it. Here's what it takes:
 
-- **Cheap phones.** £8 4G phones, so each SIM can receive its registration text.
-- **Old pocket hotspots.** These hold the SIMs.
+- **Cheap phones.** Second-hand 4G phones, to receive the text that activates each SIM.
+- **Second-hand pocket hotspots.** These hold the SIMs and use their mobile data.
 - **Clone apps.** You need the Three+ app open to show the QR code, so I use apps like Parallel Space to run several copies of it on one phone.
 
-![A phone folder called Utilities with Parallel Space, Parallel App, 2Accounts, LocalSend and a second Parallel Space icon](./clone-apps.jpg)
+![A phone folder called Utilities with Parallel Space, Parallel App, 2Accounts and a second Parallel Space icon](./clone-apps.jpg)
 
 It's fiddly, and I won't pretend otherwise. But I've done it long enough that I've got it down to a routine.
 
@@ -62,11 +62,11 @@ Each SIM gets its own day of the week. In the morning, I open that day's copy of
 
 Each SIM costs £25 and lasts two years. So seven of them cost £175, and that pays for two years of coffees. When the first seven ran out, I bought another seven. In total, I've spent £350 on SIMs.
 
-Then there's the kit. The phones and pocket hotspots cost about £8 to £10 each, so they barely add anything.
+Then there's the kit. The phones and pocket hotspots are all second-hand from eBay, at about £8 to £10 each. That's about £100 all in.
 
 The latte normally costs £4.50. When I was paying £1, I saved £3.50 every time. Now that I pay £2, I save £2.50.
 
-I've done this almost every day for about three years. Even after paying for the SIMs and the kit, I've saved nearly £3,000. So it still works out really well.
+I've done this almost every day for about three years. That's about £3,400 saved on coffees. Take off £350 for the SIMs and about £100 for the kit, and I'm nearly £3,000 up.
 
 ## Still a bargain
 
