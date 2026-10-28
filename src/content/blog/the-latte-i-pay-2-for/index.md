@@ -2,18 +2,18 @@
 title: "The £4.50 latte I pay £2 for"
 description: "How seven cheap business sims and a phone rewards scheme turned my daily Caffè Nero latte into a £2 habit."
 date: "2026-10-28"
-draft: true
+draft: false
 tags:
   - money
   - coffee
   - life
 ---
 
-I love coffee. I get up at 3:30 most mornings. I've got twin boys, so if I want any time to myself, it has to be before everyone else is up. The early morning is my time: a bit of me-time, a walk, some meditation.
+Most mornings, I'm up at 3:30. With twin boys at home, if I want any time to myself, it has to be before everyone else wakes up. So the early hours are mine: working on my startups, some meditation, a walk.
 
-Part of that routine is a large oat latte at my local Caffè Nero, first thing in the morning. That's about £4.50 a day, and every day it adds up: over a year, that's more than £1,600.
+And a coffee. A large oat latte from my local Caffè Nero, first thing. It's about £4.50 a day, and it adds up: over a year, that's more than £1,600.
 
-So I found a way to pay £2 for it instead.
+So I found a way to pay £1 for it instead. It's £2 now, but I'll get to that.
 
 ![Three business sim packs from Three, laid out on a carpet above four pocket Wi-Fi hotspots: two Vodafone and two ZTE](./sims-and-hotspots.jpg)
 
@@ -34,7 +34,7 @@ One of the rewards is a weekly Caffè Nero drink. It used to be £1. A couple of
 
 The catch is that it's one reward a week. I drink coffee every day.
 
-More Three sims would mean more rewards, but a normal sim needs a top-up every month or a contract. Pay that for six extra sims and the cheap coffee isn't cheap any more.
+More Three sims would mean more rewards, but a normal sim means a contract, and even a cheap one is around £10 a month. For six extra sims, that's £60 a month just to unlock six coffees a week. Suddenly the cheap coffee isn't cheap at all.
 
 ## The trick
 
