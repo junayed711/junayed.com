@@ -11,7 +11,7 @@ tags:
 
 I love coffee. I get up at 3:30 most mornings. I've got twin boys, so if I want any time to myself, it has to be before everyone else is up. The early morning is my time: a bit of me-time, a walk, some meditation.
 
-Part of that routine is a large oat latte at my local Caffè Nero. That's about £4.50 a day, and every day it adds up.
+Part of that routine is a large oat latte at my local Caffè Nero, first thing in the morning. That's about £4.50 a day, and every day it adds up: over a year, that's more than £1,600.
 
 So I found a way to pay £2 for it instead.
 
