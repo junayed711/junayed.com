@@ -32,7 +32,7 @@ One of the rewards is a weekly Caffè Nero drink. It used to be £1. A couple of
 
 ## Why one SIM isn't enough
 
-The catch is that it's one reward a week. I drink coffee every day.
+The catch is that each Three number only gets one cheap coffee a week. I have one every day, so I'd need seven numbers to cover the whole week.
 
 More Three SIMs would mean more rewards, but a normal SIM means a contract, and even a cheap one is around £10 a month. For six extra SIMs, that's £60 a month just to unlock six coffees a week. Suddenly the cheap coffee isn't cheap at all.
 
