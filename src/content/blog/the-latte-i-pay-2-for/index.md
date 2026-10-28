@@ -60,7 +60,7 @@ It's fiddly, I won't pretend otherwise. But I've done it long enough that I've g
 
 Seven sims at £25 each is £175, and that covers two years. My first set ran out, so I bought a second. That's £350 so far.
 
-When the coffee was £1, I was saving about £3.50 a cup. At £2, it's about £2.50. Over the last few years, that's added up to thousands of pounds.
+When the coffee was £1, I was saving about £3.50 a cup. At £2, it's about £2.50. I've been doing this for about three years, almost every day, and that's added up to about £3,000, even after paying for the sims.
 
 ## Still a bargain
 
