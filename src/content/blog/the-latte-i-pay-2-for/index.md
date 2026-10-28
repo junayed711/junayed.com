@@ -47,7 +47,7 @@ Each one comes with its own number, and each number can be registered with Three
 It's a loophole. Strictly, the terms say one code per customer, and I'm one customer with seven numbers. You also have to go out of your way for it. Here's what it takes:
 
 - **Cheap phones.** Second-hand 4G phones, to receive the text that activates each SIM.
-- **Second-hand pocket hotspots.** These hold the SIMs and use their mobile data.
+- **Second-hand pocket hotspots.** These hold the SIMs, so the data doesn't go to waste. When I'm experimenting with AI agents and need an isolated network to break things on, they give me one. It's the same idea as my [throwaway server for risky experiments](/blog/a-sandbox-for-my-experiments/).
 - **Clone apps.** You need the Three+ app open to show the QR code, so I use apps like Parallel Space to run several copies of it on one phone.
 
 ![A phone folder called Utilities including Parallel Space, Parallel App and 2Accounts](./clone-apps.jpg)
