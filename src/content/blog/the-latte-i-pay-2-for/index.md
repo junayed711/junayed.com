@@ -60,7 +60,7 @@ Each SIM gets its own day of the week. Once I'm heading in, I open that day's co
 
 Each SIM costs £25 and lasts two years. So seven of them cost £175, and that pays for two years of coffees. When the first seven ran out, I bought another seven. In total, I've spent £350 on SIMs.
 
-Then there's the kit. The phones and pocket hotspots are all second-hand from eBay, at about £8 to £10 each. That's about £100 all in.
+Then there's the kit. I've bought a few phones and pocket hotspots over the years, all second-hand from eBay at about £8 to £10 each. Altogether, I've spent about £100 on them.
 
 The latte normally costs £4.50. When I was paying £1, I saved £3.50 every time. Now that I pay £2, I save £2.50.
 
