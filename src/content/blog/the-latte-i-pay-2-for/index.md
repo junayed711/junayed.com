@@ -70,6 +70,6 @@ I've done this almost every day for about three years. Even after paying for the
 
 ## Still a bargain
 
-The price going up to £2 stung a little. But a large oat latte for £2, every morning, is still a bargain.
+When the reward went up from £1 to £2, I was a bit gutted. But I still get a £4.50 large oat latte for £2, every morning. That's a bargain.
 
 ![A hand holding a Caffè Nero takeaway cup in front of a hedge](./coffee.jpg)
