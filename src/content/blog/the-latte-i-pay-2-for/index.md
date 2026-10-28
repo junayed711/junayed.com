@@ -64,7 +64,9 @@ Each SIM costs £25 and lasts two years. So seven of them cost £175, and that p
 
 Then there's the kit. The phones and pocket hotspots cost about £8 to £10 each, so they barely add anything.
 
-When the coffee was £1, I was saving about £3.50 a cup. At £2, it's about £2.50. I've been doing this for about three years, almost every day, and that's added up to nearly £3,000, even after paying for the SIMs and the kit. It still works out really well.
+The latte normally costs £4.50. When I was paying £1, I saved £3.50 every time. Now that I pay £2, I save £2.50.
+
+I've done this almost every day for about three years. Even after paying for the SIMs and the kit, I've saved nearly £3,000. So it still works out really well.
 
 ## Still a bargain
 
