@@ -60,7 +60,7 @@ Each SIM gets its own day of the week. In the morning, I open that day's copy of
 
 ## The money
 
-Seven SIMs at £25 each is £175, and that covers two years. My first set ran out, so I bought a second. That's £350 so far.
+Each SIM costs £25 and lasts two years. So seven of them cost £175, and that pays for two years of coffees. When the first seven ran out, I bought another seven. In total, I've spent £350 on SIMs.
 
 When the coffee was £1, I was saving about £3.50 a cup. At £2, it's about £2.50. I've been doing this for about three years, almost every day, and that's added up to about £3,000, even after paying for the SIMs.
 
