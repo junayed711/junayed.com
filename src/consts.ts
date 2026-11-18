@@ -40,8 +40,8 @@ export const CONTACT: Metadata = {
 
 export const BOOKING: Contact = {
   NAME: "Book a call",
-  HANDLE: "cal.eu/junayed711",
-  HREF: "https://www.cal.eu/junayed711",
+  HANDLE: "cal.com/junayed711/15min",
+  HREF: "https://cal.com/junayed711/15min",
 };
 
 export const SOCIALS: Socials = [
